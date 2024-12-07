@@ -1,0 +1,53 @@
+/* Card component styles */
+.card {
+  background-color: #ffffff;  /* White background */
+  border: 1px solid #ccc;  /* Subtle border */
+  padding: 20px;  /* Padding inside the card */
+  margin: 15px;  /* Margin around the card */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+  width: 300px;  /* Card width */
+  border-radius: 8px;  /* Rounded corners */
+}
+
+.card-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;  
+  text-align: center;  /* Center-align the title */
+}
+
+.card-description {
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+  color: #555; 
+  text-align: justify;  /* Justify the paragraph text */
+}
+
+/* Styling for the introductory paragraph */
+.intro {
+  font-size: 18px;
+  text-align: justify;  /* Justify the text for a clean look */
+  padding: 10px;
+  margin-bottom: 20px;  /* Add space between paragraphs */
+}
+
+/* Styling for the details paragraph */
+.details {
+  font-size: 16px;
+  line-height: 1.6;  /* Increase line height for readability */
+  text-align: justify;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #ecf0f1;  /* Light gray background for contrast */
+  border-left: 5px solid #27ae60;  /* Green border on the left for emphasis */
+}
+
+/* Styling for the conclusion paragraph */
+.conclusion {
+  font-size: 18px;
+  text-align: left;  /* Left-align the conclusion text */
+  font-weight: bold;  /* Bold for emphasis */
+  padding: 15px;
+  margin-top: 30px;
+}
